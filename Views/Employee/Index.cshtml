@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Employess</h1>
+
+    @{
+        List<string> emps = new List<string>()
+        {
+            "raheeq","misk","obod"
+        };
+    }
+
+    @foreach (var emp in emps)
+    {
+        <h2>@emp</h2>
+    }
+
+    <h3>@Model</h3>
+
+    </body>
+    </html>

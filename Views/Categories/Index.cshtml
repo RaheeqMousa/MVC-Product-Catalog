@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Categories</h1>
+    @foreach (var item in @Model)
+    {
+		<h2>Category: @item.Name</h2>
+		<a href="/Categories/Details/@item.Id">Details</a>
+	}
+
+    
+</body>
+    </html>
